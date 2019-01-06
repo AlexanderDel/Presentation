@@ -36,12 +36,12 @@ name: konfmanag
 count: false
 
 template: konfmanag
-Konfigurationen beschreiben ein Objekt hinsichtlich der Merkmale, Strukturen und Gestalten. Um den Prozess der Leistungserstellung zu steuern und damit Änderungen durchzuführen sind eine Baseline und die darin enthaltenen Konfigurationsdokumente notwendig. 
+<b>Konfigurationen</b>
 
 --
 count: false
 Einige Beispiele für Konfigurationsdokumente: 
-- Anforderugnsdefinitionen
+- Anforderungsdefinitionen
 - Spezifikation oder Pflichtenhefte
 - Projektstrukturplan und Arbeitspaketbeschreibungen
 - Designdokumente
@@ -109,9 +109,11 @@ count: false
 >- Konfigurationsaudit (Configuration Audit)
 
 #  
+--
+count:false
 
 <b>Konfigurationsmanagementplanung: </b>   
-Es wird festgelegt wie und womit Konfiguratinonsmanagement unterstützt wird, in welchem Umfang es ausgeführt werden soll, und wer dafür zuständig ist. 
+Es wird festgelegt wie und womit Konfigurationsmanagement unterstützt wird, in welchem Umfang es ausgeführt werden soll, und wer dafür zuständig ist. 
 
 ---
 
@@ -129,13 +131,14 @@ class: middle, left
 
 <b>Konfigurationsidentifizierung</b>
 - Konfigurationseinheiten werden festgelegt
-  - Dies geschieht wenn die Projektergebnisstruktur ermittelt und der Projektstrukturplan gestaltet wird
 
 --
 count:false
 
 Mögliche Fragen für die Auswahl von Konfigurationseinheiten:
 - Handelt es sich um eine eigene Liefereinheit, eine Zuliefereinheit oder einen eigenen Vertragsbestandteil?
+--
+count:false
 - Ist es sinnvoll, die Einheit besonders zu überwachen, da sie kritische Eigenschaften für die Einhaltung der Projektziele besitzt?
 
 --
@@ -162,48 +165,55 @@ class: middle, left
 <b>Änderungslenkung (auch Änderungsmanagement)</b>  
 
 Das Änderungsmanagement besteht im Wesentlichen aus drei Prozessschritten:
+--
+count:false
 - Initiieren und planen: Der Änderungsantrag
+--
+count:false
 - Verhandeln und Entscheiden: Änderungsantrag freigeben
+--
+count:false
 - Umsetzen: Änderungsmitteilung
 
-#  
+---
+class:middle,center
 
---
-count: false
-
-<b>Änderungsantrag</b>  
-
-In einem Änderungsantrag ist es wichtig, diverse Informationen zur Änderung anzugeben. Jeder Projektbeteiligter kann einen Änderungsantrag stellen. Wichtige Änderungen, mit möglichen größeren Auswirkungen sollen besonders auf negative Auswirkungen analysiert werden. Mitarbeiter der betroffenen Arbeitspakete nehmen zur Änderung Stellung.
+<img src="https://raw.githubusercontent.com/ProjektManagementGruppe3/Ausarbeitung/master/include/alex/Abb%204.2%20Beispiel%20f%C3%BCr%20einen%20%C3%84nderungsantrag.jpg"  width="400" >
 
 ---
 
-.center[![Center-aligned image](https://raw.githubusercontent.com/AlexanderDel/Presentation/master/include/%C3%84nderungsantrag1.jpg)]
-
----
-count: false
-
-.center[![Center-aligned image](https://raw.githubusercontent.com/AlexanderDel/Presentation/master/include/%C3%84nderungsantrag2.jpg)]
-
----
 
 <b>Verhandeln und Entscheiden</b>  
 
 In diesem Prozessschritt wird die Änderung bewertet:
+--
+count:false
 - Was sind die Auswirkungen bezüglich Kosten, Termine und andere Funktionen des Systems?
+--
+count:false
 - Wer übernimmt die zusätzliche Kosten?
 
-Am Ende dieses Prozesses ist eine Entscheidung zu treffen, und zwar von einem Entscheidungsträger, der zu benennen ist.
 
 ---
 
 <b>Umsetzen</b>  
 
 Wichtig sind: 
+--
+count:false
 - Informieren aller Beteiligten über die neue Baseline
+--
+count:false
 - Festlegen, zu welchem Zeitpunkt die Änderung einzufügen ist
+--
+count:false
 - Kennzeichnen, Aufzeichnen, Verfolgen und das Berichten über die Umsetzung der Änderung
 
-Um zu jedem Zeitpunkt die Rückkehr zu einer älteren Konfiguration möglich zu machen muss jedes Dokument Angaben enthaltenz zu:
+#  
+--
+count:false
+
+Jedes Dokument sollte Angaben enthalten zu:
 - Titel
 - Versions-Nr.
 - Erstellungsdatum
@@ -212,13 +222,22 @@ Um zu jedem Zeitpunkt die Rückkehr zu einer älteren Konfiguration möglich zu 
 
 Die <b>Konfigurationsbuchführung</b> verwaltet alle Konfigurationsdokumente, die zusammen die Baseline bilden. Relevante Dokumente hierfür sind:
 - Produktbaum
+--
+count:false
 - Spezifikation für jede Konfigurationseinheit
+--
+count:false
 - Zeichnungen und Stücklisten
+--
+count:false
 - Vorschriften für z.B. die Fertigung, Handhabung, Fertigungseinrichtungen, Hilfsmittel, Verpackung und Transport
+--
+count:false
 - Vorschriften für Tests und Abnahmen
 
 #  
-
+--
+count:false
 Alle Änderungen in den Einzeldokumenten führen zur Aktualisierung der Baseline.
 
 --
@@ -248,11 +267,18 @@ count:false
 - Einweisungsplan
 
 ---
-class:middle, left
+#  
+
 - Die Proviantliste VN-P L2 ist ein Arbeitsergebnis des Arbeitspaketes "Crew" und wird später im Arbeitspaket "Proviant" umgesetzt
+
+--
+count:false
 
 - Der Einweisungsplan VNEAL3 stammt auch von "Crew" und wird später im "Crewtraining" angewendet
   
+--
+count:false
+
 - Die Buchführung und Steuerung der Dokumente wird in dem Arbeitspaket "Dokumentation" erledigt.
   - Aus diesem Arbeitspaket ergibt sich die aktualisierte Baseline
 
@@ -280,43 +306,61 @@ count:false
 
 ## Projektfortschritt messen und Prognosen errechnen
 
-In Bezug zum Projektzieldreieck müssen zu einem fetgelegten Stichtag folgende Eck-Daten erhoben werden:
-
 --
 count:false
 
 <b>Termine</b>: Plantermine und Isttermine
+--
+count:false
 - Welche Aufgaben wurden wann erledigt?
+--
+count:false
 - Welche Aufgaben wurden angefangen?
+--
+count:false
 - Wann werden sie erledigt sein und was bedeutet das für den Projektendtermin?
+--
+count:false
 - Welche Aufgaben sind noch zu erledigen, und von wann bis wann werden sie bearbeitet?
 
 --
 count:false
 
 <b>Kosten</b>: Plankosten, Istkosten und Sollkosten
+--
+count:false
 - Wieviel Kosten sind bisher insgesamt angefallen?
+--
+count:false
 - Welche Kosten sind für die einzelnen Arbeitspakete angelaufen?
+--
+count:false
 - Welche Kosten sind noch einzuplanen?
+--
+count:false
 - Wieviel wird das Projekt insgesamt am Ende kosten?
 
 --
 count:false
 
 <b>Leistung</b>: Planleistung und Istleistung
+--
+count:false
 - Inwieweit entsprechen die Ergebnisse den Vorgaben der Baseline?
 
 ---
 
-> Earned Value: Verknüpfung von Kosten mit der Leistung, um die Kosten im Gesamtblick vergleichen zu können.
-> 
-> Fertigstellungsgrad: Verhältnis der zu einem Stichtag erbrachten Leistung zur Gesamtleistung  
+> **Earned Value**  
+> **Fertigstellungsgrad**  
 > Beispiel: Fertigstellungsgrad = Earned Value / Gesamtleistung
 
 #  
 
+--
+count:false
 <b>Warum müssen Ist und Soll verglichen und Prognosen ermittelt werden?</b>  
-Ein Projekt weicht grundsätzlich immer vom Plan ab. Deswegen sind Ist-Soll-Vergleiche wichtig für die systematische Projektsteuerung. 
+--
+count:false
 Liegt eine Abweichung vor liegen die Interessen des Auftragsgebers und des Managements bei zwei Frage:
 - Was sind die Auswirkungen der Abweichung?
 - Wie sehen mögliche Korrekturmaßnahmen einschließlich ihrer Konsequenzen aus?
@@ -340,8 +384,14 @@ Dazu stehen verschiedene Methoden zur Verfügung:
 count:false
 
 Wie wird der Istzustand ermittelt?
+--
+count:false
 - Arbeitspaketverantwortliche tragen zu den vereinbarten Berichtsterminen den aktuellen Status vor.
+--
+count:false
 - Projektmitarbeiter melden Istdaten an das Projektcontrolling bzw. das betriebliche Rechnungswesen.
+--
+count:false
 - Walkaround
 
 ---
@@ -357,14 +407,15 @@ Mögliche Ursachen von Ist-Soll-Abweichungen:
 count:false
 
 <b>Wie werden Prognosen erstellt?</b>  
-Prognosen sind eine ungefähre Einschätzung, was für zukünftige Entwicklungen das Projekt hat. Die Ergebnisse werden in der Planung berücksichtigt, 
-um eine aktuelle Aussage zu den erwartenden Gesamtkosten und Endtermin zu liefern. Die verbleibende Arbeit wird neu bewertet, indem die Kosten
+Die verbleibende Arbeit wird neu bewertet, indem die Kosten
 neu errechnet werden. Mögliche Vorgehensweisen:
 
 --
 count:false
 
 - Neue Schätzung auf Basis der aktuellen Erkenntnisse
+--
+count:false
 - Die zukünftige Entwicklung wird mit Hilfe der Daten aus der Vergangenheit fortgeschrieben. Die verbleibende Arbeit wird mit Kennzahlen berechnet.  
   Als Kennzeichen zählt z.B. der CPI (Cost Performance Index)
 
@@ -378,15 +429,17 @@ count:false
 
 ---
 
-Im täglichen Briefing und Debriefing wird der Fortschritt des Törns gemessen. Die Qualität des Törns wird im Debriefing erhoben (Grad der Erfüllung der Erwartung) und nach dem Törn analysiert und bewertet. 
-
+Im täglichen Briefing und Debriefing wird der Fortschritt des Törns gemessen.  
 --
 count:false
 
-##  
+
 
 Während des Törns (Durchführungsphase) kommt es zu einer Abweichung:  Während der Fahrt werden Bojen oder Tonnen sichtbar, die laut Plan jedoch nicht da sein sollten.  
-Istzustand:
+
+--
+count:false
+Istzustand
 - Der Steuermann steuert den vorgegebenen Kurs.
 - Man segelt mit einer Geschwindigkeit von 6 Knoten.
 - Die letzte Eintragung im Logbuch geschah vor etwa 30min.
@@ -407,21 +460,27 @@ Das heißt, die Crew hat keinen Fehler gemacht. Beim Annähern zeigt sich, dass 
 ---
 
 ## Reviews
-Reviews finden zu besonderen geplanten Zeitpunkten im Projekt statt, z.B. als regelmäßige Statussitzungen oder zu besonderen Situationen, und dienen zur Überprüfung verrichteter Arbeiten. Dazu werden spezielle Methoden, Verfahren und Dokumentationen beschrieben. Am Ende eines Reviews steht immer eine Entscheidung, die den Projektverlauf beeinflusst.  
-Weitere wichtige Aspekte:
-- Reviews dienen auch als Kommunikation mit den Stakeholdern innerhalb des Projekts als auch mit übergeordneten Entscheidungsträgern.
+--
+count:false
+- Finden zu besonderen geplanten Zeitpunkten statt
+  - als regelmäßige Statussitzungen
+  - zu besonderen Situationen
+--
+count:false
+- Am Ende steht immer eine Entscheidung, die den Projektverlauf beeinflusst
+--
+count:false
+- Dienen als Kommunikation mit den Stakeholdern und mit übergeordneten Entscheidungsträgern.
+--
+count:false
 - Wichtige Reviews werden frühzeitig geplant.
+--
+count:false
 - Reviews sind Teil des Verifikations- und Validierungskonzepts im Projekt.
 
 ---
 
 <b>Welche Reviews gibt es?</b>  
-Reviews finden auf verschiedenen Ebenen mit unterschiedlichen Terilnehmern statt: z.B. mit dem Kunden, mit Experten oder nur im eigenen Projektteam.
-Reviews mit übergeordneten Stellen werden zuerst vorbereitet, z.B. durch ein anderes Review mit dem Projektteam, welches dazu dient die Informationen zu kürzen und zu verdichten,
-damit es für die Empfänger angepasst ist. 
-
-##  
-
 Mögliche Reviews in der <b>Definitions- und Planungsphase</b>:
 - Prüfung und Abnahme der Leistungsbeschreibung - System Requirements Review (SRR)
 - Prüfung und Abnahme des fachlichen Grobkonzepts - Preliminary Design Review (PDR)
@@ -437,8 +496,8 @@ Mögliche Reviews in der <b>Definitions- und Planungsphase</b>:
 <b>Prüfung und Abnahme der Leistungsbeschreibung - System Requirements Review (SRR)</b>  
 - Eindeutige Anforderungen werden festgelegt.
 - Vorgesehene Schritte und Verfahren zur Verifikation und Validierung des Systems werden vereinbart.
-- Diese beinhalten: Budgetrahmen, Termine, rechtliche Rahmenbedingungen und Vorraussetzungen für Zahlungsmeilensteine.
-- Ergebnisse werden im Pflichtenheft, oder auch Statement of Work genannt, festgehalten.
+  - Diese beinhalten: Budgetrahmen, Termine, rechtliche Rahmenbedingungen und Vorraussetzungen für Zahlungsmeilensteine.
+- Ergebnisse werden im Pflichtenheft festgehalten.
   
 ---
 
@@ -448,7 +507,7 @@ Mögliche Reviews in der <b>Definitions- und Planungsphase</b>:
 >- Prüfung und Abnahme des fachlichen Feinkonzepts - Critical Desing Review (CDR)
 
 <b>Prüfung und Abnahme des fachlichen Grobkonzepts - Preliminary Design Review (PDR)</b>  
-- Das Grobkonzept ist das Ergebnis der bis zu diesem Zeitpunkt durchgeführten Arbeiten und zeigt die bevorzugte Lösung.
+- Beschreibt das Ergebnis der bis zu diesem Zeitpunkt durchgeführten Arbeiten und zeigt die bevorzugte Lösung.
 - Der Entwurf erfüllt alle Top-Level-Anforderungen wie: Budgetrahmen, Termine und Gesetze und Vorschriften.
 
 ---
@@ -459,11 +518,10 @@ Mögliche Reviews in der <b>Definitions- und Planungsphase</b>:
 >- <b>Prüfung und Abnahme des fachlichen Feinkonzepts - Critical Desing Review (CDR)</b>
 
 <b>Prüfung und Abnahme des fachlichen Feinkonzepts - Critical Desing Review (CDR)</b>  
-Im Idealfall wird das Design mit allen erforderlichen Detailplanungen vorgestellt. Das heißt alle Dokumente liegen vollständig vor.  
+Idealfall = Designplanung ist vollständig und erfüllt alle Anforderungen.  
 In der Regel sieht dies jedoch anders aus: 
 - Durchführungsphase beginnt trotz unvollständiger Planung, aufgrund von Termingründen
-  - Komponente die unabhängig von der unvollständigen Planung sind, werden begonnen und fortgesetzt.
-  - Komponente die abhängig von der unvollständigen Planung sind, werden verzögert
+  - Komponente werden verzögert, sofern sie von der unvollständigen Planung abhängig sind.
 
 ---
 
@@ -515,19 +573,16 @@ In diesem Review wird geprüft für welche Belastungen das Produkt qualifiziert 
 - Übergabeprüfung - Delivery Review (DR)
 
 <b>Abnahmeprüfung - Acceptance Test Review (ATR)</b>  
-Abahmeprüfungen sind ähnlich wie Qualifikationsprüfungen. Das heißt statt den Extremfall zu testen wird der Normalbetrieb getestet. Die Kriterien für einen Normalfall werden mit dem Kunden in den Spezifikationen vereinbart. Für den Erfolg des Reviews müssen alle Kriterien erfüllt sein.
+Der Ablauf ist ähnlich der Qualifikationsprüfung. Allerdings wird statt dem Extremfall der Normalbetrieb getestet. Die Kriterien dazu werden mit dem Kunden vereinbart.
 
 ---
-count:false
+
 
 <b>Mögliche Reviews in der Durchführungsphase</b>:
 - Prüfung und Abnahme der Testbedingungen - Test Readiness Review (TRR)
 - Qualifikationsprüfung - Qualification Review (QR)
 - Abnahmeprüfung - Acceptance Test Review (ATR)
 - <b>Übergabeprüfung - Delivery Review (DR)</b>
-
-<b>Abnahmeprüfung - Acceptance Test Review (ATR)</b>  
-Abahmeprüfungen sind ähnlich wie Qualifikationsprüfungen. Das heißt statt den Extremfall zu testen wird der Normalbetrieb getestet. Die Kriterien für einen Normalfall werden mit dem Kunden in den Spezifikationen vereinbart. Für den Erfolg des Reviews müssen alle Kriterien erfüllt sein.
 
 <b>Übergabeprüfung - Delivery Review (DR)</b>  
 Das Produkt wird mit den Testergebnissen und der Dokumentation dem Kunden vorgestellt. Dieser übernimmt die letzte Überprüfung. Liegen Abweichungen oder Mängel vor, werden gemeinsam Maßnahmen vereinbart. Sind diese beseitigt wird das Produkt dem Kunden Übergeben. Damit ist die Durchführungsphase beendet.
@@ -588,7 +643,11 @@ Hilfreiche Regeln für ein Review:
 - <b>SRR</b>: 
   - Erwartung der potentiellen Crewmitglieder werden ermittelt und aufgelistet.
   - Aus dieser Liste werden Prioritäten und daraus resultierende Anforderungen abgeleitet und in einer Spezifikation beschrieben
+--
+count:false
 - <b>PDR</b>: Bevorzugte Lösung und Eckdaten hinsichtlich Termin, Kosten, Törngebiet und das zu chartende Schiff werden vorgestellt und gemeinsam im Team verabschiedet.
+--
+count:false
 - <b>CDR</b>: Die Dauer, das Törngebiet und die vorraussichtlichen Kosten werden von der Crew genehmigt. Das Schiff und die Flüge sind ausgewählt und die kostenwirksame Buchungen können nun erfolgen.
 
 ---
@@ -596,9 +655,17 @@ Hilfreiche Regeln für ein Review:
 <b>Durchführungsphase:</b>
 - TRR und DR: 
   - Ist das Schiff für den Törn technisch und in Bezug zur Sicherheit in Ordnung?
+--
+count:false
   - Bootsmann der Charterfirma weist den Skipper und die Co-Skipperin ein.
+--
+count:false
   - Das Schiff, seine Ausrüstung und die wesentlichen Funktionen werden mit Hilfe einer Checliste vorgestellt und überprüft.
+--
+count:false
   - Sind alle Fragen geklärt unterschreiben beide Seiten die Checkliste.
+--
+count:false
 - Ähnlicher Reviewprozess nach dem Törn: 
   - Ist das Schiff und die Ausrüstung vollständig und unbeschadet?
 
@@ -628,9 +695,17 @@ count:false
 
 <b>Erhöhung der Personalkapazität: </b>
 - kostet mehr Zeit und Geld, da neue Mitarbeiter eingewiesen werden müssen.
+--
+count:false
 - Alle Betroffenen müssen zustimmen.
+--
+count:false
 - Neue Risiken bezüglich der Qualität, da neue Mitarbeiter nicht alle Informationen besitzen.
+--
+count:false
 - Mehr Koordinationsaufwand
+--
+count:false
 - Qualifikation der neuen Mitarbeiter muss hinsichtlich des Projekts ermittelt werden
 
 ---
@@ -643,7 +718,11 @@ count:false
 
 Reduzierung des Leistungumfangs:
 - Reduzierung der Anzahl an Lieferobjekten.
+--
+count:false
 - Akzeptierte, verspätete Lieferung von Teilen von Lieferobjekten oder der Dokumentation.
+--
+count:false
 - Umfang der Dokumentation verkürzen.
 
 --
@@ -651,14 +730,22 @@ count:false
 
 Reduzierung der Qualität:
 - Reduzierung der Anzahl der Anforderungen an die Lieferobjekte.
+--
+count:false
 - Reduzierung einzelner Leistungsanforderungen.
+--
+count:false
 - Verzicht auf Entwicklungs- und Qualifikationstests einzelner Komponente.
+--
+count:false
 - Ersatz einzelner Verifikationstests durch weniger zeitraubender Verifikationsmethoden.
 
 ---
 
 ### Maßnahmen beim Segeltörn
 Die Crew segelt gegen den Wind. Gegen den Wind zu segeln ist allerdings nicht möglich.  
+--
+count:false
 Deswegen existieren drei Optionen:
 - Das Segel wird eingeholt und die rew fährt unter Motor den vorhergesehenen Kurs.
 - Die Crew kreuzt "hoch am Wind" und nimmt dadurch längere Wege und Zeiten in Kauf.
@@ -707,5 +794,5 @@ Option 3:
 - Törnplanung muss neu geplant werden
   - neue Fehler können auftreten, welche vermieden werden sollen.
 
----
 
+---  

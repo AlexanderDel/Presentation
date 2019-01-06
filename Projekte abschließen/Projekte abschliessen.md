@@ -22,16 +22,16 @@ count:false
 
 ## Planen abschließender Aktivitäten
 Abschließende Aufgaben:
-- Detaillierte Ablaufplanung der Projektabschlussphase der bereits vorhandenen Grobplanung laut Projektstrukturplan.
+- Detaillierte Ablaufplanung der Projektabschlussphase laut Projektstrukturplan.
 --
 count:false
-- Bereitstellung einer Abschlussfeier.
+- Abschlussfeier.
 --
 count:false
-- Planung, Vorbereitung und Durchführung von Projektabschlusssitzungen mit dem Kernteam.
+- Projektabschlusssitzungen mit dem Kernteam.
 --
 count:false
-- <b>Nachkalkulation</b> (Soll-Ist-Vergleich) und Analyse der Projektkosten.
+- <b>Nachkalkulation</b> und Analyse der Projektkosten.
 --
 count:false
 - Systematische Auswertung aller Projektdokumente, sodass Mitarbeiter ohne "Insiderwissen" darauf zugreifen können.
@@ -43,13 +43,7 @@ count:false
 - Formale Auflösung der Projektorganisation.
 --
 count:false
-- Auflösung des Projektbüros: u.a. auch Abbauen der Betriebsmittel und das Schließen der Kostenstelle.
---
-count:false
-- Informationen des Projektabschlusses müssen an den Kunden, den internen Auftraggeber und an das Team übergeben werden.
---
-count:false
-- Dank an alle Projektbeteiligten aussprechen.
+- Auflösung des Projektbüros
 
 ---
 ## Projektauswertung und Abschlussbericht
@@ -65,7 +59,6 @@ count:false
 --
 count:false
 - Beziehungsebene: Wichtige Stakeholder werden mit Hilfe von Fragebögen gebeten ihre Einschätzungen zum Projekt abzugeben
-  - beinhaltete Informationen zu Kunden- und Mitarbeiterzufriedenheit
 --
 count:false
 - Sachebene: Realisierung der operativen Projektziele hinsichtlich Kosten, Zeit, Leistungsumfang und Qualität werden ermittelt
@@ -74,7 +67,11 @@ count:false
 
 <b>Projektnachkalkulation</b>
 - Letzter Soll-Ist-Vergleich
+--
+count:false
 - Dient der genaueren Kostenabschätzung für zukünftige Projekte.
+--
+count:false
 - Pro Arbeitspaket sind folgende Informationen interessant:
   - Kostenplan (Budget)
   - Mehrleistung
@@ -87,11 +84,23 @@ count:false
 <b>Abschlussbericht</b>  
 Der Abschlussbericht gehört zur Projektdokumentation und dient für den Auftragnehmer dazu die Erfahrungen für Folgeprojekte zu sichern.  
 Man kann den Abschlussbericht in folgende Punkte unterteilen:
+--
+count:false
 1. Ausgangssituation des Projekts
+--
+count:false
 2. Analyse des Projektmanagements
+--
+count:false
 3. Analyse der Projektergebnisse
+--
+count:false
 4. Gesamtbeurteilung
+--
+count:false
 5. Erkenntnisse und Konsequenzen für die Zukunft
+--
+count:false
 6. Bei Bedarf: Hintergrundinformationen im Anhang
 
 ---
@@ -128,3 +137,5 @@ count:false
 ##  
 
 Lessons Learnt und Verbesserungsmaßnahmen wurden bereits im täglichen Debriefing ausgetauscht.
+
+---  

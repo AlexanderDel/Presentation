@@ -24,4 +24,4 @@
 
 .center[![Center-aligned image](https://raw.githubusercontent.com/AlexanderDel/Presentation/master/include/MS%20Project%20Filtern%20Gruppierung%20Gantt.JPG)]
 
-
+---  
